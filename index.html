@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Indian Recipes Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Indian Recipes Hub</h1>
+        <input type="text" id="searchInput" placeholder="Search for recipes...">
+        <button onclick="searchRecipes()">Search</button>
+    </header>
+    <nav id="categories">
+        <button onclick="filterByCategory('All')">All</button>
+        <button onclick="filterByCategory('South Indian')">South Indian</button>
+        <button onclick="filterByCategory('East Indian')">East Indian</button>
+        <button onclick="filterByCategory('West Indian')">West Indian</button>
+        <button onclick="filterByCategory('Central Indian')">Central Indian</button>
+        <button onclick="filterByCategory('Punjabi Cuisine')">Punjabi Cuisine</button>
+        <button onclick="filterByCategory('Rajasthani Cuisine')">Rajasthani Cuisine</button>
+        <button onclick="filterByCategory('Gujarati Cuisine')">Gujarati Cuisine</button>
+        <button onclick="filterByCategory('Bengali Cuisine')">Bengali Cuisine</button>
+        <button onclick="filterByCategory('Kerala Cuisine')">Kerala Cuisine</button>
+        <button onclick="filterByCategory('Tamil Cuisine')">Tamil Cuisine</button>
+        <button onclick="filterByCategory('Maharashtrian Cuisine')">Maharashtrian Cuisine</button>
+        <button onclick="filterByCategory('Goan Cuisine')">Goan Cuisine</button>
+        <button onclick="filterByCategory('Parsi Cuisine')">Parsi Cuisine</button>
+        <button onclick="filterByCategory('Kashmiri Cuisine')">Kashmiri Cuisine</button>
+        </nav>
+    
+    <main id="recipeContainer">
+    </main>
+    <footer>
+        <p>&copy; 2024 Indian Recipes Hub</p>
+    </footer>
+   
+    <script src="index.js"></script>
+</body>
+</html>
